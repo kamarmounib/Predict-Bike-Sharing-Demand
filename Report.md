@@ -40,7 +40,7 @@ I would consider spending more time in data cleaning and transformation. Also I 
 | add_features | 600  | 2    | None    |0.47102|
 | hpo          | 100  | 1    | 7    |0.52935|
 
-![Alt text](model_test_score.png)
+![Alt text](score.png)
 
 
 ## Summary
