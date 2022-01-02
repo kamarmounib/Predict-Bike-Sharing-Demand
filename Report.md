@@ -34,11 +34,11 @@ I would consider spending more time in data cleaning and transformation. Also I 
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 
-| model        | Time_Limit | Verbosity | num_bag_folds | score |
-|--------------|------|------|------|-------|
-| initial      | 600  | 2    | None    |1.39275|
-| add_features | 600  | 2    | None    |0.47102|
-| hpo          | 100  | 1    | 7    |0.52935|
+|   |        model | Time_limit | Verbosity | num_bag_folds |       score |
+|--:|-------------:|-----------:|----------:|--------------:|------------:|
+| 0 |      initial |        600 |         2 |          None | -114.937170 |
+| 1 | add_features |        600 |         2 |          None |  -35.177782 |
+| 2 |          hpo |        120 |         3 |             7 |  -47.267106 |
 
 ![Alt text](score.png)
 
