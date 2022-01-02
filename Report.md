@@ -40,9 +40,19 @@ I would consider spending more time in data cleaning and transformation. Also I 
 | 1 | add_features |        600 |         2 |          None |  -35.177782 |
 | 2 |          hpo |        120 |         3 |             7 |  -47.267106 |
 
-![Alt text](score.png)
+![Alt text](model_train_score.png)
+![Alt text](model_test_score.png)
 
 
 ## Summary
 
-In conclusion, I learned the impotance of featrue engineering and hyperparameter tuning and how the affect the final reasult of the model.
+In this project I started with importing data from Kaggle. After that, I performed EDA using histogram plots. I changed the type of "datetime" column to date time in order to be able to extract new features like hour, month, day and year.
+I tested the performance of the model in three cases.
+
+The first case is before adding new features. The second case is after adding the new features in which I found a great improvement in the score model. The last case is when I tuned the model's hyperparameters and that's also increased the model performance.
+
+I plotted two figures to show the results for the three models in training and testing set.  
+
+I would consider spending more time in data cleaning and transformation. Also I would consider searching for a way to find the best combination of hyperparameters to achieve a better result.
+
+In conclusion, I learned the importance of feature engineering and hyperparameter tuning and how the affect the final result of the model.
